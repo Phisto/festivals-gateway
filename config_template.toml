@@ -4,13 +4,3 @@
   [service]
   read-only = false
   port = 10439
-
-  [database]
-  host = "localhost"
-  port = 3306
-  username = "festivals.identity.guard"
-  password = "we4711"
-  database-name = "festivals_api_database"
-
-  [authentication]
-  api-keys = ["TEST_API_KEY_001", "TEST_API_KEY_002", "TEST_API_KEY_003"]
